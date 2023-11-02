@@ -24,7 +24,7 @@ with open(output_file, 'w', encoding='utf-8') as file:
     file.write(text)
 print(f"Extracted text saved to {output_file}")
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "sk-XXX"
 
 PERSIST = False
 
